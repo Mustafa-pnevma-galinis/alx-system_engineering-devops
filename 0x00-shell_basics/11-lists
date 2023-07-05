@@ -1,6 +1,2 @@
 #!/bin/bash
-current_dir=$(pwd)
-ls -la "$current_dir"
-parent_dir=$(dirname "$current_dir")
-ls -la "$parent_dir"
-ls -la /boot
+ls -la $(pwd) $(dirname $(pwd)) /boot
